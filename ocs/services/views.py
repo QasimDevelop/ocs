@@ -6,6 +6,6 @@ def index(request):
 def appointments(request):
     pass
 def login(request):
-    pass
+    return render(request,"services/login.html")
 def signup(request):
     pass
