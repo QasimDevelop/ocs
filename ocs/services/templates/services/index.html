@@ -1,5 +1,11 @@
 {% extends 'services/base.html' %}
 
 {% block content %}
-<h1>Welcome to Dashboard</h1>
+<h1>Welcome 
+  {% if usrName %}
+    {{ usrName }} 
+  {% else %}
+    User 
+  {% endif %}
+</h1>
 {% endblock %}

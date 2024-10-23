@@ -1,1 +1,6 @@
-name: "Testing"
+name: Testing
+on: push
+jobs: 
+    Testing:
+        runs-on: ubuntu-latest
+        
