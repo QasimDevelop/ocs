@@ -4,8 +4,8 @@ from django.shortcuts import render,HttpResponse
 def index(request):
     return render(request,"services/index.html")
 def appointments(request):
-    pass
+    return render(request,"services/appointments.html")
 def login(request):
     return render(request,"services/login.html")
 def signup(request):
-    pass
+    return render(request,"services/signup.html")
